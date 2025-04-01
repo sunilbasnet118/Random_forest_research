@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import joblib
-from data_preprocess import preprocess_data
+from src.data_preprocess import preprocess_data
 
 def train_model(X_train, y_train, model_file):
     # Train Random Forest model for regression

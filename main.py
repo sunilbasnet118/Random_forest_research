@@ -1,7 +1,7 @@
-import data_preprocess
-import train
-import actual_score
-import result
+import src.data_preprocess as data_preprocess
+import src.train as train
+import src.actual_score as actual_score
+import src.result as result
 
 def main():
     # Data preprocessing
