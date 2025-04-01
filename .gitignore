@@ -1,0 +1,33 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+.venv/
+
+# Ignore Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore model and dataset files
+models/
+datasets/
+*.pkl
+*.json
+
+# Ignore trained model files
+trained_model.pkl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore environment and dependency files
+.env
+*.loc
